@@ -1,0 +1,17 @@
+[project]
+name = "rez_wg_config_launcher_demo"
+version = "0.1.0"
+requires-python = ">= 3.11"
+
+
+dependencies = [
+    "qtpy",
+    "PySide6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "uv",
+    "ruff",
+    "mypy"
+]
